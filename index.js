@@ -7,6 +7,10 @@ const mongoose = require('mongoose');
 
 //middleware functions.
 app.use(express.json());
+app.use(function (err, req, res, next) {
+    res.status(500).send('Internal Server Error.');
+    logger.error('something failed!', err);
+});
 
 //winston.
 const logger = winston.createLogger({
