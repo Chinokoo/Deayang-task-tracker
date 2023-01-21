@@ -2,9 +2,9 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
+const winston = require('winston');
 const logger = require('./startup/winston');
 const tasks = require('./routes/tasks');
-//const { level, info } = require('winston');
 
 //middleware functions.
 app.use(express.json());
@@ -14,6 +14,17 @@ app.use(function (err, req, res, next) {
     logger.error('something failed!', err);
 });
 
+//winston 
+process.on('uncaughtException', (ex) => {
+    logger.error(ex.message, ex),
+        process.exit(1);
+});
+process.on('unhandledRejection', (ex) => {
+    logger.error(ex.message, ex);
+    process.exit(1);
+})
+
+//throw new Error('hahahaha');
 //connecting with the database.
 mongoose.connect('mongodb://127.0.0.1:27017/task-tracker')
     .then(() => logger.info('connection to the database is successfull.'))

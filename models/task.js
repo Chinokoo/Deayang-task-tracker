@@ -1,6 +1,7 @@
 //modules.
 const mongoose = require('mongoose');
 const Joi = require('joi');
+Joi.objectId = require('joi-objectid')(Joi);
 
 //mongoose schema.
 const Task = mongoose.model('Task', new mongoose.Schema({
@@ -36,6 +37,9 @@ const joiTask = Joi.object({
         .required()
 });
 
+joiID = Joi.objectId()
+
 //globalization.
 module.exports.Task = Task;
 module.exports.joiTask = joiTask;
+module.exports.joiID = joiID;
