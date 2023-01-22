@@ -86,3 +86,39 @@
 {"level":"info","message":"connection to the database is successfull."}
 {"level":"info","message":"listening on port' 4000"}
 {"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"get all the tasks."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"get all the comment."}
+{"level":"error","message":"Task.findById is not a function Task.findById is not a function","stack":"TypeError: Task.findById is not a function\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\comments.js:13:29\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\index.js:47:12)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"create a comment."}
+{"level":"info","message":"get a single comment."}
+{"level":"error","message":"task is not defined task is not defined","stack":"ReferenceError: task is not defined\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\comments.js:44:9\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\index.js:280:10)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"update a comment"}
+{"level":"info","message":"delete a comment."}
+{"level":"info","message":"delete a comment."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"get all the comment."}
+{"level":"info","message":"get all the comment."}
+{"level":"info","message":"create a comment."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"get all the comment."}
+{"level":"info","message":"create a comment."}

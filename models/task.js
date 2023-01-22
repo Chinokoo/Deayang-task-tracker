@@ -35,9 +35,9 @@ const joiTask = Joi.object({
         .required(),
     completed: Joi.boolean()
         .required()
-});
+}).options({ abortEarly: false });
 
-joiID = Joi.objectId()
+joiID = Joi.objectId();
 
 //globalization.
 module.exports.Task = Task;
