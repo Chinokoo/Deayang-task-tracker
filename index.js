@@ -6,11 +6,12 @@ const winston = require('winston');
 const logger = require('./startup/winston');
 const tasks = require('./routes/tasks');
 const comments = require('./routes/comments');
-
+const users = require('./routes/users');
 //middleware functions.
 app.use(express.json());
 app.use(tasks);
 app.use(comments);
+app.use(users);
 app.use(function (err, req, res, next) {
     res.status(500).send('Internal Server Error.');
     logger.error('something failed!', err);

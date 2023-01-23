@@ -122,3 +122,37 @@
 {"level":"info","message":"connection to the database is successfull."}
 {"level":"info","message":"get all the comment."}
 {"level":"info","message":"create a comment."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"getting all the users."}
+{"level":"info","message":"getting all the users."}
+{"level":"info","message":"getting all the users."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"error","message":"bycrpt is not defined bycrpt is not defined","stack":"ReferenceError: bycrpt is not defined\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\users.js:24:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"_message":"User validation failed","errors":{"country":{"kind":"required","message":"Path `country` is required.","name":"ValidatorError","path":"country","properties":{"message":"Path `country` is required.","path":"country","type":"required"}}},"level":"error","message":"User validation failed: country: Path `country` is required. User validation failed: country: Path `country` is required.","stack":"ValidationError: User validation failed: country: Path `country` is required.\n    at Document.invalidate (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\document.js:3125:32)\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\document.js:2913:17\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\schematype.js:1349:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"sign in user."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"get all users."}
+{"level":"info","message":"sign in user."}
