@@ -156,3 +156,38 @@
 {"level":"info","message":"connection to the database is successfull."}
 {"level":"info","message":"get all users."}
 {"level":"info","message":"sign in user."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"error","message":"admin is not defined admin is not defined","stack":"ReferenceError: admin is not defined\n    at userSchema.methods.generateToken (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\models\\user.js:50:5)\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\login.js:20:24"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"error","message":"secretOrPrivateKey must have a value secretOrPrivateKey must have a value","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\jsonwebtoken\\sign.js:105:20)\n    at userSchema.methods.generateToken (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\models\\user.js:51:24)\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\login.js:20:24"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"user login"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"user login"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"user login"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}

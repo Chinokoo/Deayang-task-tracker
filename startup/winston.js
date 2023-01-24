@@ -7,7 +7,8 @@ const logger = winston.createLogger({
     transports: [
         new winston.transports.File({ filename: 'task-tracker-Log' }),
         new winston.transports.Console(),
-        new winston.transports.MongoDB({ db: 'mongodb://127.0.0.1:27017/task-tracker' })
+        new winston.transports.MongoDB({ db: 'mongodb://127.0.0.1:27017/task-tracker' }),
+        new winston.transports.MongoDB({ level: 'error', db: 'mongodb://127.0.0.1:27017/task-tracker' })
     ]
 });
 

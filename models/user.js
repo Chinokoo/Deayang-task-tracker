@@ -1,9 +1,11 @@
 //modules.
 const mongoose = require('mongoose');
 const Joi = require('joi');
+const config = require('config');
+const jwt = require('jsonwebtoken');
 
 //mongoose schema.
-const User = mongoose.model('User', new mongoose.Schema({
+const userSchema = new mongoose.Schema({
     username: {
         type: String,
         required: true,
@@ -43,7 +45,13 @@ const User = mongoose.model('User', new mongoose.Schema({
         type: Boolean,
         required: false
     }
-}));
+});
+userSchema.methods.generateToken = function () {
+    if (this.dmin) return token = jwt.sign({ id: this._id, username: this.username, admin: this.admin }, config.get('task-trackerPrivateKey'));
+    return token = jwt.sign({ id: this._id, username: this.username }, config.get('task-trackerPrivateKey'));
+}
+//mongoose model.
+const User = mongoose.model('User', userSchema);
 
 //joi schema.
 const joiUser = Joi.object({
@@ -57,7 +65,7 @@ const joiUser = Joi.object({
         .min(7)
         .max(1024),
     password: Joi.string()
-        //.pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')) try this in the future.
+        //.pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')) will try this in the future.
         .required()
         .min(6)
         .max(15),

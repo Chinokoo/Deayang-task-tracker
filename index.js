@@ -2,20 +2,19 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const winston = require('winston');
+const config = require('config');
 const logger = require('./startup/winston');
 const tasks = require('./routes/tasks');
 const comments = require('./routes/comments');
 const users = require('./routes/users');
+const login = require('./routes/login')
 //middleware functions.
 app.use(express.json());
 app.use(tasks);
 app.use(comments);
 app.use(users);
-app.use(function (err, req, res, next) {
-    res.status(500).send('Internal Server Error.');
-    logger.error('something failed!', err);
-});
+app.use(login);
+
 
 //winston 
 process.on('uncaughtException', (ex) => {
@@ -25,9 +24,14 @@ process.on('uncaughtException', (ex) => {
 process.on('unhandledRejection', (ex) => {
     logger.error(ex.message, ex);
     process.exit(1);
-})
+});
 
-//throw new Error('hahahaha');
+//task-tracker private key.
+if (!config.get('task-trackerPrivateKey')) {
+    logger.error('Fatal Error! task-tracker private key not defined!');
+    process.exit(1);
+}
+
 //connecting with the database.
 mongoose.connect('mongodb://127.0.0.1:27017/task-tracker')
     .then(() => logger.info('connection to the database is successfull.'))
