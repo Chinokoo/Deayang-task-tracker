@@ -1,10 +1,8 @@
-//modules.
 const mongoose = require('mongoose');
 const Joi = require('joi');
-Joi.objectId = require('joi-objectid')(Joi);
 
-//mongoose schema.
-const Task = mongoose.model('Task', new mongoose.Schema({
+//const task schema..
+const taskSchema = new mongoose.Schema({
     title: {
         type: String,
         required: true,
@@ -26,11 +24,20 @@ const Task = mongoose.model('Task', new mongoose.Schema({
         default: Date.UTC,
         required: true
     },
-    owner: {
+    assignedTo: {
+        type: String,
+        required: true,
+        minlength: 3,
+        maxlength: 300
+    },
+    assignedBy: {
         type: String,
         required: false
     }
-}));
+});
+
+//mongoose schema.
+const Assign = mongoose.model('Assign', taskSchema);
 
 //joi schema.
 const joiTask = Joi.object({
@@ -45,12 +52,13 @@ const joiTask = Joi.object({
     completed: Joi.boolean()
         .required(),
     dueDate: Joi.date()
+        .required(),
+    assignedTo: Joi.string()
+        .min(3)
+        .max(300)
         .required()
 }).options({ abortEarly: false });
 
-joiID = Joi.objectId();
-
-//globalization.
-module.exports.Task = Task;
+//globalisation......
+module.exports.Assign = Assign;
 module.exports.joiTask = joiTask;
-module.exports.joiID = joiID;

@@ -191,3 +191,134 @@
 {"level":"info","message":"user login"}
 {"level":"info","message":"listening on port' 4000"}
 {"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"user login"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"_message":"Task validation failed","errors":{"dueDate":{"kind":"date","message":"Cast to date failed for value \"NaN\" (type number) at path \"dueDate\"","name":"CastError","path":"dueDate","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"NaN\"","value":null,"valueType":"number"}},"level":"error","message":"Task validation failed: dueDate: Cast to date failed for value \"NaN\" (type number) at path \"dueDate\" Task validation failed: dueDate: Cast to date failed for value \"NaN\" (type number) at path \"dueDate\"","stack":"ValidationError: Task validation failed: dueDate: Cast to date failed for value \"NaN\" (type number) at path \"dueDate\"\n    at Document.invalidate (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\document.js:3125:32)\n    at applyDefaults (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\helpers\\document\\applyDefaults.js:101:17)\n    at model.Document (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\document.js:182:5)\n    at model.Model (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\model.js:122:12)\n    at new model (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\model.js:5092:15)\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\tasks.js:15:18\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at module.exports (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\middleware\\users.js:12:9)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"_message":"Task validation failed","errors":{"dueDate":{"kind":"date","message":"Cast to date failed for value \"NaN\" (type number) at path \"dueDate\"","name":"CastError","path":"dueDate","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"NaN\"","value":null,"valueType":"number"}},"level":"error","message":"Task validation failed: dueDate: Cast to date failed for value \"NaN\" (type number) at path \"dueDate\" Task validation failed: dueDate: Cast to date failed for value \"NaN\" (type number) at path \"dueDate\"","stack":"ValidationError: Task validation failed: dueDate: Cast to date failed for value \"NaN\" (type number) at path \"dueDate\"\n    at Document.invalidate (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\document.js:3125:32)\n    at applyDefaults (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\helpers\\document\\applyDefaults.js:101:17)\n    at model.Document (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\document.js:182:5)\n    at model.Model (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\model.js:122:12)\n    at new model (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\model.js:5092:15)\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\tasks.js:15:18\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at module.exports (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\middleware\\users.js:12:9)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"created a task."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"created a task."}
+{"level":"info","message":"created a task."}
+{"level":"info","message":"created a task."}
+{"level":"info","message":"created a task."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"get all the tasks."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"get all the tasks."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"get all the tasks."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"get a single task."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"update a task."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"update a task."}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:393:5)\n    at ServerResponse.setHeader (node:_http_outgoing:644:11)\n    at ServerResponse.header (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\response.js:174:12)\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\tasks.js:68:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"get a single task."}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:393:5)\n    at ServerResponse.setHeader (node:_http_outgoing:644:11)\n    at ServerResponse.header (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\response.js:174:12)\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\tasks.js:68:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:393:5)\n    at ServerResponse.setHeader (node:_http_outgoing:644:11)\n    at ServerResponse.header (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\response.js:174:12)\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\tasks.js:68:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"deleted a task."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"error","message":"Task.removeOne is not a function Task.removeOne is not a function","stack":"TypeError: Task.removeOne is not a function\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\tasks.js:66:29\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at module.exports (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\middleware\\users.js:12:9)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\index.js:365:14)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"deleted a task."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"sign in user."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"sign in user."}
+{"level":"info","message":"user login"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"user login"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"user login"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"sign in user."}
+{"level":"info","message":"user login"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"sign in user."}
+{"level":"info","message":"user login"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"get all the tasks."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"error","message":"title is not defined title is not defined","stack":"ReferenceError: title is not defined\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\tasks.js:48:41\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at module.exports (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\middleware\\admin.js:5:5)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at module.exports (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\middleware\\users.js:12:9)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:114:3)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"error","message":"title is not defined title is not defined","stack":"ReferenceError: title is not defined\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\assigned.js:42:22\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"error","message":"title is not defined title is not defined","stack":"ReferenceError: title is not defined\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\assigned.js:39:22\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"_message":"Assign validation failed","errors":{"dueDate":{"kind":"date","message":"Cast to date failed for value \"NaN\" (type number) at path \"dueDate\"","name":"CastError","path":"dueDate","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"NaN\"","value":null,"valueType":"number"}},"level":"error","message":"Assign validation failed: dueDate: Cast to date failed for value \"NaN\" (type number) at path \"dueDate\" Assign validation failed: dueDate: Cast to date failed for value \"NaN\" (type number) at path \"dueDate\"","stack":"ValidationError: Assign validation failed: dueDate: Cast to date failed for value \"NaN\" (type number) at path \"dueDate\"\n    at Document.invalidate (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\document.js:3125:32)\n    at applyDefaults (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\helpers\\document\\applyDefaults.js:101:17)\n    at model.Document (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\document.js:182:5)\n    at model.Model (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\model.js:122:12)\n    at new model (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\model.js:5092:15)\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\assigned.js:37:26\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"_message":"Assign validation failed","errors":{"dueDate":{"kind":"date","message":"Cast to date failed for value \"NaN\" (type number) at path \"dueDate\"","name":"CastError","path":"dueDate","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"NaN\"","value":null,"valueType":"number"}},"level":"error","message":"Assign validation failed: dueDate: Cast to date failed for value \"NaN\" (type number) at path \"dueDate\" Assign validation failed: dueDate: Cast to date failed for value \"NaN\" (type number) at path \"dueDate\"","stack":"ValidationError: Assign validation failed: dueDate: Cast to date failed for value \"NaN\" (type number) at path \"dueDate\"\n    at Document.invalidate (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\document.js:3125:32)\n    at applyDefaults (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\helpers\\document\\applyDefaults.js:101:17)\n    at model.Document (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\document.js:182:5)\n    at model.Model (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\model.js:122:12)\n    at new model (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\model.js:5092:15)\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\assigned.js:37:26\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}
+{"level":"error","message":"Parameter \"filter\" to find() must be an object, got 63d6a7b13e0e7ee561ea02fa Parameter \"filter\" to find() must be an object, got 63d6a7b13e0e7ee561ea02fa","stack":"ObjectParameterError: Parameter \"filter\" to find() must be an object, got 63d6a7b13e0e7ee561ea02fa\n    at Query.find (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\query.js:2364:16)\n    at Function.find (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\mongoose\\lib\\model.js:2260:13)\n    at C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\routes\\assigned.js:61:33\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at module.exports (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\middleware\\users.js:12:9)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\JS\\task-tracker\\node_modules\\express\\lib\\router\\layer.js:95:5)"}
+{"level":"info","message":"listening on port' 4000"}
+{"level":"info","message":"connection to the database is successfull."}

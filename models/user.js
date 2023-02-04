@@ -44,10 +44,10 @@ const userSchema = new mongoose.Schema({
     admin: {
         type: Boolean,
         required: false
-    }
+    },
 });
 userSchema.methods.generateToken = function () {
-    if (this.dmin) return token = jwt.sign({ id: this._id, username: this.username, admin: this.admin }, config.get('task-trackerPrivateKey'));
+    if (this.admin) return token = jwt.sign({ id: this._id, username: this.username, admin: this.admin }, config.get('task-trackerPrivateKey'));
     return token = jwt.sign({ id: this._id, username: this.username }, config.get('task-trackerPrivateKey'));
 }
 //mongoose model.
@@ -78,7 +78,9 @@ const joiUser = Joi.object({
     country: Joi.string()
         .required()
         .min(3)
-        .max(300)
+        .max(300),
+    admin: Joi.boolean()
+        .optional()
 }).options({ abortEarly: false });
 
 //globalisation.

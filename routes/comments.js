@@ -3,10 +3,12 @@ const express = require('express');
 const router = express.Router();
 const { Comment, commentId, joiComment } = require('../models/comment');
 const { Task } = require('../models/task');
-const logger = require('../startup/winston')
+const users = require('../middleware/users');
+const admin = require('../middleware/admin');
+const logger = require('../startup/winston');
 
 //creating a comment.
-router.post('/api/comments', async (req, res) => {
+router.post('/api/comments', [users, admin], async (req, res) => {
     const validate = joiComment.validate(req.body);
     if (validate.error) res.status(400).send(validate.error.message);
 
@@ -22,12 +24,12 @@ router.post('/api/comments', async (req, res) => {
     logger.info('create a comment.');
 });
 //getting the comment.
-router.get('/api/comments', async (req, res) => {
+router.get('/api/comments', [users, admin], async (req, res) => {
     const comments = await Comment.find().sort('comment');
     res.send(comments);
     logger.info('get all the comment.');
 });
-router.get('/api/comments/:id', async (req, res) => {
+router.get('/api/comments/:id', [users, admin], async (req, res) => {
     const validateId = commentId.validate(req.params.id);
     if (validateId.error) res.status(400).send(validateId.error.message);
 
@@ -37,7 +39,7 @@ router.get('/api/comments/:id', async (req, res) => {
     logger.info('get a single comment.');
 });
 //updating a comment.
-router.put('/api/comments/:id', async (req, res) => {
+router.put('/api/comments/:id', [users, admin], async (req, res) => {
     const validateId = commentId.validate(req.params.id);
     if (validateId.error) res.status(400).send(validateId.error.message);
 
@@ -53,7 +55,7 @@ router.put('/api/comments/:id', async (req, res) => {
     logger.info('update a comment');
 });
 //deleting a comment.
-router.delete('/api/comments/:id', async (req, res) => {
+router.delete('/api/comments/:id', [users, admin], async (req, res) => {
     const comment = await Comment.findByIdAndDelete(req.params.id);
     if (!comment) return res.status(404).send('comment not found.');
     res.send(comment);

@@ -20,7 +20,8 @@ router.post('/api/signin', async (req, res) => {
         password: req.body.password,
         dateOfBirth: req.body.dateOfBirth,
         phoneNumber: req.body.phoneNumber,
-        country: req.body.country
+        country: req.body.country,
+        admin: req.body.admin
     });
     const salt = await bcrypt.genSalt(10);
     user.password = await bcrypt.hash(user.password, salt);

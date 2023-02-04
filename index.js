@@ -7,13 +7,16 @@ const logger = require('./startup/winston');
 const tasks = require('./routes/tasks');
 const comments = require('./routes/comments');
 const users = require('./routes/users');
-const login = require('./routes/login')
+const login = require('./routes/login');
+const assigned = require('./routes/assigned');
+
 //middleware functions.
 app.use(express.json());
 app.use(tasks);
 app.use(comments);
 app.use(users);
 app.use(login);
+app.use(assigned);
 
 
 //winston 
